@@ -21,23 +21,6 @@
 .mapa img{
     border-radius: 15px;
 }
-
-#projeto{
-    margin-top: 30px;
-    padding: 20px 20px;
-    background-color: rgb(252, 252, 252);
-
-}
-#projeto header{
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-}
-
-#projeto h2{
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-}
 .faq{
     margin-top: 30px;
     padding: 20px 20px;

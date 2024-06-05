@@ -28,12 +28,6 @@
             </header>
             <img src="images/mapa.png" alt="">
         </section>
-        <section id="projeto">
-            <header>Projeto</header>
-            <h2>Nosso projeto visa desenvolver uma plataforma web inovadora dedicada ao monitoramento e conservação dos ecossistemas marinhos, com foco na limpeza das praias e mares. Através de um sistema de cadastro e classificação da limpeza das praias, nossa plataforma oferece informações precisas e atualizadas para frequentadores, autoridades locais e ONGs. Os usuários podem consultar o status de limpeza das praias, acessar relatórios detalhados e receber notificações e alertas sobre mudanças na classificação das praias.
-                Além disso, nosso sistema de avaliação permite o feedback colaborativo, engajando a comunidade na preservação ambiental. A plataforma é responsiva e acessível em diversos dispositivos, garantindo alta disponibilidade e segurança dos dados. Nossa solução promove a conscientização ambiental e apoia a formulação de políticas públicas.
-                Ao estabelecer parcerias com ONGs e autoridades governamentais, buscamos ampliar o impacto da nossa iniciativa, atraindo recursos e colaborando para a preservação dos oceanos. Estamos comprometidos em fornecer uma ferramenta eficaz e confiável para a conservação marinha.</h2>
-        </section>
         <section class="faq">
             <header>FAQ</header>
             <div class="faq-text">
@@ -59,6 +53,27 @@
             </div>
         </section>
     </main>
+    <footer>
+        <img src="images/logo.png" alt="">
+        <div>
+            <h1>Arthur Tavares Arraes</h1>
+            <h1>Willian Moreira</h1>
+            <h1>Gabriel de Munno Noma</h1>
+        </div>
+    </footer>
 </body>
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "ac017192-fa1b-4649-8e18-c6e48f5b973e", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "636a393d-ca28-4f4a-ab79-ba50927cedd9", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
 <script src="script/navbar.js"></script>
 </html>
