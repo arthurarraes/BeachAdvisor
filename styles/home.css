@@ -1,23 +1,4 @@
 
-header{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    margin: 25px;
-}
-header img{
-    width: 20vh;
-}
-.navbar{
-    display: flex;
-    gap: 20px;
-}
-.navbar a{
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-}
 .hero{
     width: 100%;
 }
