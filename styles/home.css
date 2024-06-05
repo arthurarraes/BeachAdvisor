@@ -5,15 +5,62 @@
 .hero img{
     width: 100%;
     clip-path: polygon(0 10%, 100% 0, 100% 85%, 0 100%);
-    z-index: 0;
+
 }
-.hero h1{
-    position: absolute;
-    top: 30%;
-    left: 27%;
+.mapa header{
+    display: flex;
+    flex-direction: column;
+}
+.mapa header h1{
+    font-family: "Montserrat", sans-serif;
+}
+.mapa{
+    margin-top: 100px;
     text-align: center;
-    font-family: "Sofia", cursive;
+}
+.mapa img{
+    border-radius: 15px;
+}
+
+#projeto{
+    margin-top: 30px;
+    padding: 20px 20px;
+    background-color: rgb(252, 252, 252);
+
+}
+#projeto header{
+    font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    color: white;
-    z-index: 1000;
+}
+
+#projeto h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.faq{
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+.faq header{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+.faq-text{
+    margin-bottom: 15px;
+    background-color: #d5e4e9;
+    padding: 10px;
+    border-radius: 15px;
+}
+.faq .faq-text h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.faq .faq-text h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
