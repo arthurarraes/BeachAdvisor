@@ -1,6 +1,33 @@
-.quadro{
-    border: 5px solid black ;
-    border-radius: 10px;
-    padding-top: 50px;
+.praias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-praia{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
 
+    height:280px ;
+
+
+}
+.icon{
+    width:275px ;
+    height:270px ;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.info li{
+    list-style: none;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.info li img{
+    width: 20px;
+    height: 20px;
 }
