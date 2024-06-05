@@ -1,0 +1,56 @@
+#participantes{
+    margin: 60px 20px;
+}
+#participantes header{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+.participantes-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 10px;
+    gap: 90px;
+}
+.participante{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+.participante h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.participante a{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+a img{
+    width: 20px;
+}
+
+.noma{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#projeto{
+    margin: 60px 20px;
+}
+#projeto header{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+
+#projeto h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
