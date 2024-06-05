@@ -4,6 +4,7 @@
     align-items: center;
 }
 .box-praia{
+
     display: flex;
     flex-direction: row;
     align-items:flex-start;
@@ -56,5 +57,6 @@ button:hover{
     transition: 0.5s;
     background-color: chartreuse;
     color: black;
+    cursor: pointer;
     
 }
