@@ -47,3 +47,10 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 575px){
+    .mapa img{
+        padding: 10px;
+        width: 100%;
+    }
+}
