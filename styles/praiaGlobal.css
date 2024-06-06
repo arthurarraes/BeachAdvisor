@@ -66,8 +66,8 @@ main{
 
 }
 .infoPraia{
-    border: 1px solid rgb(216, 216, 216);
-    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
 }
 aside{
     display: flex;
@@ -76,10 +76,44 @@ aside{
     margin-right: 30px;
     width: 60%;
     padding: 8px;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
     margin: 50px auto;
 }
-.coments{
-    background-color: aquamarine;
+
+#coments{
+    text-align: center;
+}
+#coments header{
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+#coments h1{
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#txtUsuario, #txtComentario{
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid  rgb(216, 216, 216);
+    margin-bottom: 10px;
+}
+
+#comentarios{
+    text-align: start;
+}
+.comentarios button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: #1687e3ff;
+    color: white;
+}
+.comentario{
+    margin: 10px;
 }
