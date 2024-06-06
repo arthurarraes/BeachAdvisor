@@ -1,5 +1,6 @@
 let painelAtual = 1;
-const larguraPainel = window.innerWidth * 0.50;
+const larguraPainel = window.innerWidth * 0.60;
+const alturaPainel = larguraPainel/1.5;
 const totalPainel = 3;
 
 function mudar(direcao) {
