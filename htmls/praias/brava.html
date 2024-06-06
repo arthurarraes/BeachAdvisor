@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilhabela</title>
+    <script src="/script/javazin.js" defer></script>
+    <script src="/script/coments.js" defer></script>
+    <link rel="stylesheet" href="/styles/praiaGlobal.css">
+    <link rel="stylesheet" href="/styles/global.css">
+    
+</head>
+<body>
+    <header>
+        <figure><img src="/images/logo.png" alt=""></figure>
+       <nav class="navbar">
+            <a href="/home.html">Home</a>
+            <a href="/htmls/praias.html">Praias</a>
+            <a href="/htmls/sobreNos.html">Sobre Nós</a>
+       </nav>
+    </header>
+    <main>
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <div class="painel">
+                    <img src="/images/brava.jpg" alt="">
+                </div>
+                <div class="painel">
+                    <img src="/images/brava2.webp" alt="">
+                </div>
+                <div class="painel">
+                    <img src="/images/brava3.jpg" alt="">
+                </div>
+            </div>
+            <button class="seta" id="anterior" onclick="mudar(-1)">&#8249;</button> <!--Isso é o codigo unidecimal para a setinha-->
+            <button class="seta" id="prox" onclick="mudar(1)">&#8250;</button>
+        </div>
+        <section class="infoPraia">
+            <ul>
+                <li><h1>Praia Brava</h1>
+                <li>Status: <img src="/images/star.svg" alt="estrela amarela"><img src="/images/star.svg" alt="estrela amarela"><img src="/images/star.svg" alt="estrela amarela"><img src="/images/star.svg" alt="estrela amarela"></li>
+                <li><p>País: Brasil</p></li>
+                <li><p>Estado: Rio de Janeiro</p></li>
+                <li><p>Região: Sudeste</p></li>
+                <p>Não se deixe levar pelo nome. A Praia Brava em nada lembra um ambiente pouco acolhedor. Muito pelo contrário! É provável que ela seja uma das mais convidativas porções de areia de Búzios, na Região dos Lagos do Rio de Janeiro.</p>
+            </ul>
+        </section>
+        <aside id="coments">
+            <header>Comentários</header>
+            <div class="comentarios">
+                    <div>
+                        <h1>Usuário</h1>
+                    </div>
+                    <div>
+                        <input type="text" id="txtUsuario">
+                    </div>
+                <div>
+                    <div>
+                        <h1>Comentário</h1>
+                    </div>
+                    <div>
+                        <input type="text" id="txtComentario">
+                    </div>
+                </div>
+                <div>
+                    <button onclick="AdicionarComentario()">Adicionar</button>
+                </div>
+                <div>
+                <div id="comentarios">
+                    
+                </div>
+            </div>
+
+                        
+
+        </aside>
+    </main>
+    <footer>
+        <img src="/images/logo.png" alt="">
+        <div>
+            <h1>Arthur Tavares Arraes</h1>
+            <h1>Willian Moreira</h1>
+            <h1>Gabriel de Munno Noma</h1>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
