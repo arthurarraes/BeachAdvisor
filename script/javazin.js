@@ -18,6 +18,7 @@ function mudarCarousel(){
     const valorMovimento = -larguraPainel * (painelAtual - 1);
     carousel.style.transform = `translateX(${valorMovimento}px)` //Adiciona o movimento no eixo X
     container.style.width = `${larguraPainel}px`; // ajusta  alargura do painel
+    container.style.height = `${container.width}px`;
 
 }
 mudarCarousel() // função chamada pra garantir que funcione
