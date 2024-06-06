@@ -3,8 +3,7 @@ let comentarios = [];
 function AdicionarComentario(){
 	let usuario = '';
 	let comentario = {};
-	usuario = document.getElementById('txtUsuario').value;
-let	
+	usuario = document.getElementById('txtUsuario').value;	
 	const data = Date.now();
 	const today = new Date(data);
 		
