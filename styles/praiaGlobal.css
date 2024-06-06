@@ -3,7 +3,7 @@ main{
 }
 .carousel-container {
     position: relative;
-    width: 1100px; /* Largura de cada painel */
+    width: 70%; /* Largura de cada painel */
     margin: 50px auto;
     overflow: hidden; /* Adicionando overflow: hidden para esconder conteúdo que ultrapassa a largura */
     background-color: #e0e0e0; /* Cor de fundo do contêiner do carrossel */
@@ -12,11 +12,11 @@ main{
 .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 3300px;
+    width: 300%;
 }
 
 .painel img{
-    width:1100px ;
+    width:100% ;
     height: 400px;
 }
 .painel {
