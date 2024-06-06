@@ -1,3 +1,35 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 10px 30px;
+}
+.filtro{
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+}
+.filtro header{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.filtro-box{
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    border-right-style:hidden;
+    border-left-style: hidden;
+}
+.filtro-box h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+.filtro-checkbox{
+    margin: 0 0 5px 0;
+}
+.filtro-checkbox label{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
 .praias{
     display: flex;
     flex-direction: column;
@@ -9,10 +41,11 @@
     flex-direction: row;
     align-items:flex-start;
     margin-bottom:10px;
-    width: 700px;
-    height:280px ;
-
-
+    margin-right: 30px;
+    width: 80%;
+    padding: 8px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
 }
 .info h1{
     font-family:"Montserrat", sans-serif;
