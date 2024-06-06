@@ -1,10 +1,10 @@
-var comentarios = [];		
+let comentarios = [];		
 		
 function AdicionarComentario(){
-	var usuario = '';
-	var comentario = {};
+	let usuario = '';
+	let comentario = {};
 	usuario = document.getElementById('txtUsuario').value;
-		
+let	
 	const data = Date.now();
 	const today = new Date(data);
 		
@@ -21,11 +21,11 @@ function AdicionarComentario(){
 		return false;
 	}
 		
-	var div_comentarios = document.getElementById('comentarios');
+	let div_comentarios = document.getElementById('comentarios');
 		
 	comentarios.push(comentario);
 		
-	var html_final = '';
+	let html_final = '';
 		
 	comentarios.forEach(x=>{
 		html_final += '___________________________________________________________________________________';
