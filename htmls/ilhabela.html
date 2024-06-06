@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ilhabela</title>
     <script src="/script/javazin.js" defer></script>
+    <script src="/script/coments.js" defer></script>
     <link rel="stylesheet" href="/styles/praiaGlobal.css">
     <link rel="stylesheet" href="/styles/global.css">
     
@@ -43,11 +44,37 @@
                 <li><p>Estado: São Paulo</p></li>
                 <li><p>Região: Sudeste</p></li>
                 <p>Ilhabela é um dos únicos municípios-arquipélagos marinhos brasileiros e é localizado no litoral norte do estado de São Paulo.</p>
-                <a href="/htmls/ilhabela.html"><button>Deixar comentário para ajudar!</button></a>
+                <a href="#coments"><button>Deixar comentário para ajudar!</button></a>
             </ul>
         </section>
-        <aside>
+        <aside id="coments">
             <h1>Comentários</h1>
+            <div class="comentarios">
+                    <div>
+                        Usuário
+                    </div>
+                    <div>
+                        <input type="text" id="txtUsuario">
+                    </div>
+                </div>
+                <div style="margin-top:20px;">
+                    <div>
+                        Comentário
+                    </div>
+                    <div>
+                        <input type="text" id="txtComentario">
+                    </div>
+                </div>
+                <div>
+                    <button onclick="AdicionarComentario()">Adicionar</button>
+                </div>
+                <div>
+                <div id="comentarios">
+                    
+                </div>
+            </div>
+
+                        
 
         </aside>
     </main>
