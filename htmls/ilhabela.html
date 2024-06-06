@@ -3,27 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - BeachAdvisor</title>
+    <title>Ilhabela</title>
     <script src="/script/javazin.js" defer></script>
     <link rel="stylesheet" href="/styles/praiaGlobal.css">
+    <link rel="stylesheet" href="/styles/global.css">
     
 </head>
 <body>
-    <div class="carousel-container">
-        <div class="carousel" id="carousel">
-            <div class="painel">
-                <h1>Painel 1</h1>
+    <header>
+        <figure><img src="/images/logo.png" alt=""></figure>
+       <nav class="navbar">
+            <a href="/home.html">Home</a>
+            <a href="/htmls/praias.html">Praias</a>
+            <a href="/htmls/sobreNos.html">Sobre Nós</a>
+       </nav>
+    </header>
+    <main>
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <div class="painel">
+                    <img src="/images/OIP.jfif" alt="">
+                </div>
+                <div class="painel">
+                    <img src="/images/Ilhabela2.jpg" alt="">
+                </div>
+                <div class="painel">
+                    <h1>Painel 3</h1>
+                </div>
             </div>
-            <div class="painel">
-                <h1>Painel 2</h1>
-            </div>
-            <div class="painel">
-                <h1>Painel 3</h1>
-            </div>
+            <button class="seta" id="anterior" onclick="mudar(-1)">&#8249;</button> <!--Isso é o codigo unidecimal para a setinha-->
+            <button class="seta" id="prox" onclick="mudar(1)">&#8250;</button>
         </div>
-        <button class="anterior" onclick="mudar(-1)">&#8249;</button> <!--Isso é o codigo unidecimal para a setinha-->
-        <button class="prox" onclick="mudar(1)">&#8250;</button>
-    </div>
+        <section class="infoPraia">
+            <ul>
+                <li><h1>1. Praia de Ilhabela</h1></li>
+                <li>Status: <img src="/images/star.svg" alt="estrela amarela"><img src="/images/star.svg" alt="estrela amarela"><img src="/images/star.svg" alt="estrela amarela"><img src="/images/star.svg" alt="estrela amarela"><img src="/images/star.svg" alt="estrela amarela"></li>
+                <li>Legenda: 1-2 <img src="/images/star.svg" alt="estrela amarela"> -> Precisa de Ajuda, 3-4 <img src="/images/star.svg" alt="estrela amarela">-> Apta para turismo, 5 <img src="/images/star.svg" alt="estrela amarela">-> Limpa e segura</li>
+                <li><p>País: Brasil</p></li>
+                <li><p>Estado: São Paulo</p></li>
+                <li><p>Região: Sudeste</p></li>
+                <p>Ilhabela é um dos únicos municípios-arquipélagos marinhos brasileiros e é localizado no litoral norte do estado de São Paulo.</p>
+                <a href="/htmls/ilhabela.html"><button>Deixar comentário para ajudar!</button></a>
+            </ul>
+        </section>
+        <aside>
+
+        </aside>
+    </main>
+    <footer>
+        <img src="/images/logo.png" alt="">
+        <div>
+            <h1>Arthur Tavares Arraes</h1>
+            <h1>Willian Moreira</h1>
+            <h1>Gabriel de Munno Noma</h1>
+        </div>
+    </footer>
 
 </body>
 
