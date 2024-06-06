@@ -6,7 +6,7 @@ main{
     width: 50%; /* Largura de cada painel */
     margin: 50px auto;
     overflow: hidden; /* Adicionando overflow: hidden para esconder conteúdo que ultrapassa a largura */
-    background-color: #4285f4; /* Cor de fundo do contêiner do carrossel */
+    background-color: white; /* Cor de fundo do contêiner do carrossel */
     border: 1px solid #ccc;
     border-radius: 10px;
 }
