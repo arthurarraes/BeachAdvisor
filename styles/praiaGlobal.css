@@ -14,7 +14,7 @@ main{
 .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 300%;
+    width: 301%;
   
 }
 
