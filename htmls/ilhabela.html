@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - BeachAdvisor</title>
-
+    <script src="/script/javazin.js" defer></script>
     <link rel="stylesheet" href="/styles/praiaGlobal.css">
     
 </head>
 <body>
-    https://github.com/kensdy/carousel-web-template
-    <!--Link do github pro carrousel-->
+    <div class="carousel-container">
+        <div class="carousel" id="carousel">
+            <div class="painel">
+                <h1>Painel 1</h1>
+            </div>
+            <div class="painel">
+                <h1>Painel 2</h1>
+            </div>
+            <div class="painel">
+                <h1>Painel 3</h1>
+            </div>
+        </div>
+        <button class="anterior" onclick="mudar(-1)">&#8249;</button> <!--Isso é o codigo unidecimal para a setinha-->
+        <button class="prox" onclick="mudar(1)">&#8250;</button>
+    </div>
 
 </body>
+
 
 </html>
