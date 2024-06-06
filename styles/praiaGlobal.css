@@ -1,3 +1,6 @@
+main{
+    font-family: "Montserrat", sans-serif;
+}
 .carousel-container {
     position: relative;
     width: 1100px; /* Largura de cada painel */
@@ -9,9 +12,13 @@
 .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 4400px; /* Largura total do carrossel - 4 painéis * 1100px */
+    width: 3300px;
 }
 
+.painel img{
+    width:1100px ;
+    height: 400px;
+}
 .painel {
     width: 1100px;
     height: 400px;
@@ -24,13 +31,14 @@
     border-radius: 10px; /* Adicionando bordas arredondadas */
     overflow: hidden; /* Garantindo que a imagem não ultrapasse as bordas arredondadas */
     background-color: #f8f8f8; /* Cor de fundo dos painéis */
+
 }
 
 .content {
     padding: 20px;
 }
 
-button {
+.seta {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -42,10 +50,19 @@ button {
     cursor: pointer;
 }
 
-.anterior {
+#anterior {
     left: 10px;
 }
 
-.prox {
+#prox {
     right: 10px;
+}
+.infoPraia img{
+    width: 20px;
+    height: 20px;
+
+}
+.infoPraia{
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
 }
