@@ -11,12 +11,12 @@ function AdicionarComentario(){
 	comentario.usuario = usuario;
 	comentario.data = today.toLocaleString('pt-BR');
 
-	if(comentario.comentario == ''){
-		alert('Escreva um comentário');
-		return false;
-	}
 	if(comentario.usuario == ''){
 		alert('Digite um usuário');
+		return false;
+	}
+	if(comentario.comentario == ''){
+		alert('Escreva um comentário');
 		return false;
 	}
 		
@@ -31,7 +31,8 @@ function AdicionarComentario(){
 	});
 		
 	document.getElementById('txtComentario').value = '';
-	document.getElementById('txtComentario').focus();
+	document.getElementById('txtUsuario').value = '';
+	document.getElementById('txtUsuario').focus();
 		
 	div_comentarios.innerHTML += html_final;		
 }
