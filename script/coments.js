@@ -27,7 +27,7 @@ function AdicionarComentario(){
 	let html_final = '';
 		
 	comentarios.forEach(x=>{
-		html_final += `<div class="comentario"><p>Usuário: ${x.usuario}</p><p>Comentário: ${x.comentario}</p><p>Data: ${x.data}</p></div>`; 
+		html_final += `<div class="comentario"><p><span>Usuário:</span> ${x.usuario}</p><p><span>Comentário:</span> ${x.comentario}</p><p><span>Data:</span> ${x.data}</p></div>`; 
 	});
 		
 	document.getElementById('txtComentario').value = '';
