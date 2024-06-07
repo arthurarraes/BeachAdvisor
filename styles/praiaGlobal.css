@@ -132,7 +132,7 @@ aside{
     font-weight: 600;
     color: #1687e3ff;
 }
-@media screen and (max-width: 575px){
+@media screen and (max-width: 767px){
     aside{
     width: 85%;
     }
