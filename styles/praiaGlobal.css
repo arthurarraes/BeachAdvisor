@@ -105,6 +105,7 @@ aside{
 }
 
 #comentarios{
+    margin-top: 60px;
     text-align: start;
 }
 .comentarios button{
@@ -116,4 +117,18 @@ aside{
 }
 .comentario{
     margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  rgb(216, 216, 216);
+}
+.comentario p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin: 5px;
+    font-size: 16px;
+}
+.comentario span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1687e3ff;
 }
