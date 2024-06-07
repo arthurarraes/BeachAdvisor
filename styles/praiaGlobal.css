@@ -132,3 +132,15 @@ aside{
     font-weight: 600;
     color: #1687e3ff;
 }
+
+aside{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px;
+    margin-right: 30px;
+    width: 60%;
+    padding: 8px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    margin: 50px auto;
+}
