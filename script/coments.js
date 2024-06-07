@@ -33,5 +33,5 @@ function AdicionarComentario(){
 	document.getElementById('txtComentario').value = '';
 	document.getElementById('txtComentario').focus();
 		
-	div_comentarios.innerHTML = html_final;		
+	div_comentarios.innerHTML += html_final;		
 }
